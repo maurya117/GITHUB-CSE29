@@ -1,0 +1,39 @@
+
+.resume-container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.photo-box {
+    border: 2px solid black;
+    padding: 5px;
+    width: 160px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.xyz {
+    background-color: blue;
+    text-align: left;
+}
+.details {
+    flex: 1;
+    text-align: right;
+}
+
+
